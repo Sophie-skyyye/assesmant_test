@@ -7,28 +7,35 @@
 .hero{
   width: 100%;
   min-height: 100vh;
-  background: #beb7fc;
+  background: #e6e6fa;
   color: #525252;  
 }
 
 nav{
-    background: #1a1a1a;
+    background: #8E8EAD;
     width: 100%;
-    padding: 10px 10%;
+    padding: 2px 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
 
 }
+
+
+nav a:hover {
+    background-color: #777777;
+    color: #ffffff;
+}
 .logo{
-    width: 150px;
+    width: 70px;
 
 }
 
 nav ul{
     width: 100%;
     text-align: right;
+    display: block;
 }
 
 nav ul li{
